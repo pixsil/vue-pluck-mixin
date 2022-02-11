@@ -21,8 +21,7 @@ https://www.paypal.com/donate/?hosted_button_id=2XCS6R3CTC5BA
 For a quick install, run this from your project root:
 ```bash
 mkdir -p resources/js/tools/vue-pluck
-wget -O resources/js/tools/vue-pluck/vue-form.js https://raw.githubusercontent.com/pixsil/....
-wget -O resources/js/tools/vue-pluck/vue-error.js https://raw.githubusercontent.com/pixsil/....
+wget -O resources/js/tools/vue-pluck/vue-pluck-prototype.js https://raw.githubusercontent.com/pixsil/vue-pluck-mixin/main/vue-pluck-prototype.js
 ```
 
 Add this to your app.js
