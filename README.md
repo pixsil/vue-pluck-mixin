@@ -40,7 +40,7 @@ Vue.use(PixPluckPrototype);
 
 You can use the function for both arrays 
 
-```
+```javascript
 // output an array with keys
 let id_array = this.$pluck(record_array, 'id’);
 
