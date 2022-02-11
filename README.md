@@ -32,7 +32,7 @@ import PixPluckPrototype from "./tools/vue-pluck/vue-pluck-prototype";
 And in your Vue Init:
 
 ```javascript
-Vue.use(PixPluck);
+Vue.use(PixPluckPrototype);
 ```
 
 
