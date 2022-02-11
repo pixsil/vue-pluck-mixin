@@ -16,7 +16,7 @@ https://www.paypal.com/donate/?hosted_button_id=2XCS6R3CTC5BA
 
 # As Protoype (recommended way)
 
-## Installation [Work in progress]
+## Installation
 
 For a quick install, run this from your project root:
 ```bash
