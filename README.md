@@ -26,7 +26,7 @@ wget -O resources/js/tools/vue-pluck/vue-pluck-prototype.js https://raw.githubus
 
 Add this to your app.js
 ```javascript
-import PixPluckPrototype from "./tools/pix-pluck/pix-pluck";
+import PixPluckPrototype from "./tools/vue-pluck/vue-pluck-prototype";
 ```
 
 And in your Vue Init:
