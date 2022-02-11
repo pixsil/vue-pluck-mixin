@@ -14,6 +14,43 @@ Find this project useful? You can support me on with a donation:
 
 https://www.paypal.com/donate/?hosted_button_id=2XCS6R3CTC5BA
 
+# As Protoype (recommended way)
+
+## Installation [Work in progress]
+
+For a quick install, run this from your project root:
+```bash
+mkdir -p resources/js/tools/vue-pluck
+wget -O resources/js/tools/vue-pluck/vue-form.js https://raw.githubusercontent.com/pixsil/....
+wget -O resources/js/tools/vue-pluck/vue-error.js https://raw.githubusercontent.com/pixsil/....
+```
+
+Add this to your app.js
+```javascript
+import PixPluckPrototype from "./tools/pix-pluck/pix-pluck";
+```
+
+And in your Vue Init:
+
+```javascript
+mixins: [pluck],
+```
+
+
+## Usage
+
+You can use the function for both arrays 
+
+```
+// output an array with keys
+let id_array = this.$pluck(record_array, 'id’);
+
+// output an object with keys and name value
+let relation_id_arr = this.$pluck(record_array, 'name', 'id');
+```
+
+# As mixin
+
 ## Installation [Work in progress]
 
 For a quick install, run this from your project root:
