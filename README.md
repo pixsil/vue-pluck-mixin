@@ -1,4 +1,4 @@
-# Vue Pluck mixin
+# Vue Pluck mixin for VueJS 3
 
 ## What is it?
 
@@ -13,28 +13,6 @@ The Javascript pluck function is created like a VueJs mixin but can also be used
 Find this project useful? You can support me on with a donation:
 
 https://www.paypal.com/donate/?hosted_button_id=2XCS6R3CTC5BA
-
-# As Protoype (recommended way)
-
-## Installation
-
-For a quick install, run this from your project root:
-```bash
-mkdir -p resources/js/tools/vue-pluck
-wget -O resources/js/tools/vue-pluck/vue-pluck-prototype.js https://raw.githubusercontent.com/pixsil/vue-pluck-mixin/main/vue-pluck-prototype.js
-```
-
-Add this to your app.js
-```javascript
-import PixPluckPrototype from "./tools/vue-pluck/vue-pluck-prototype";
-```
-
-And in your Vue Init:
-
-```javascript
-Vue.use(PixPluckPrototype);
-```
-
 
 ## Usage
 
