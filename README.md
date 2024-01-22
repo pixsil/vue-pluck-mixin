@@ -28,7 +28,7 @@ let relation_id_arr = this.$pluck(record_array, 'name', 'id');
 
 # As mixin
 
-## Installation [Work in progress]
+## Installation
 
 For a quick install, run this from your project root:
 ```bash
