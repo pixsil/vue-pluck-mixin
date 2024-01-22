@@ -54,14 +54,13 @@ let relation_id_arr = this.$pluck(record_array, 'name', 'id');
 
 For a quick install, run this from your project root:
 ```bash
-mkdir -p resources/js/tools/vue-pluck
-wget -O resources/js/tools/vue-pluck/vue-form.js https://raw.githubusercontent.com/pixsil/....
-wget -O resources/js/tools/vue-pluck/vue-error.js https://raw.githubusercontent.com/pixsil/....
+mkdir -p resources/js/tools/pix-pluck
+wget -O resources/js/tools/pix-pluck/pluck-mixin.js https://raw.githubusercontent.com/pixsil/pix-pluck-mixin/main/pluck-mixin.js
 ```
 
 Add this to your app.js
 ```javascript
-import pluck from './tools/pluck'
+import pluck from './tools/pix-pluck/pluck-mixin.js'
 ```
 
 And in your Vue Init:
